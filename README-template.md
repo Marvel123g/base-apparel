@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://github.com/Marvel123g/base-apparel.git]
+- Solution URL: [https://github.com/Marvel123g/base-apparel.git]
 - Live Site URL: [https://marvel123g.github.io/base-apparel/]
 
 ## My process
