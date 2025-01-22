@@ -6,11 +6,14 @@ form.addEventListener("submit", e => {
     e.preventDefault();
 
     if(email.innerText == ""){
-        emailError.style.display = "block";
-        email.classList.add("error");
+        console.log('input a value');
+        // emailError.style.display = "block";
+        // email.classList.add("error");
+    }else{
+        console.log('correct')
     };
-    if (email.innerText != ""){
-        console.log("correct");
-        emailError.style.display = "none";
-    }
+    // if (email.innerText != ""){
+    //     console.log("correct");
+    //     emailError.style.display = "none";
+    // }
 });
