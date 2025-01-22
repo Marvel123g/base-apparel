@@ -10,6 +10,5 @@ form.addEventListener("submit", e => {
         email.classList.add("error");
     } else{
         emailError.style.display = "none";
-         email.classList.remove("error");
     }
 });
