@@ -8,8 +8,8 @@ form.addEventListener("submit", e => {
     if(email.innerText == ""){
         emailError.style.display = "block";
         email.classList.add("error");
-    } else {
-        emailError.style.display = "none";
+    } else (email.innerText != ""){
         alert('correct');
+        emailError.style.display = "none";
     }
 });
