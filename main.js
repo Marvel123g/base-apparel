@@ -11,5 +11,6 @@ form.addEventListener("submit", e => {
     }else{
      emailError.style.display ='none';
      email.classList.remove('error');
+        alert("We will get to you soon");
     };
 });
